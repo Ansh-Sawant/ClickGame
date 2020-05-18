@@ -1,0 +1,41 @@
+body{
+    background-image: url(./mainBcg.jpeg);
+    text-align: center;
+    margin: 0px;
+}
+
+.container{
+    position: relative;
+    top: 100px;
+}
+
+#clickHere{
+    border-radius: 50%;
+    text-align: center;
+    font-size: 50px;
+    padding: 40px;
+    text-decoration: none;
+}
+
+.mainCounter{
+    color: whitesmoke;
+    /*display: none; */
+}
+
+#startAgain{
+    margin-top: 0px;
+    /*display: none; */
+}
+
+#startGame{
+    margin-bottom: 10px;
+}
+
+.rules{
+    margin-top: 20px;
+    color: whitesmoke;
+}
+
+.footer{
+    background-color: gray;
+}

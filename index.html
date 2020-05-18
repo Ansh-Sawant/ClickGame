@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Game</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-6 offset-sm-3">
+                <h1>CLICK GAME</h1>
+                <h2 class="mainCounter">COUNTER: <span id="countNum">0</span></h2> <br>
+                <h2 class="mainCounter">TIME REMAINING: <span id="timeCount">10 </span> <br>seconds left</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 offset-sm-3">
+                <button type="button" class="btn btn-success" id="startGame">Start Game</button> <br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 offset-sm-2">
+                <h4 id="totalName">Enter Your Name: <input type="text" id="name"></h4>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 offset-sm-3">
+                <button type="button" id="clickHere" class="btn btn-dark"> <strong>Click <br> Here</strong> </button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 offset-sm-3">
+                <h3 class="mainCounter" id="final"><span id="finalScore">0</span></h3> <br>
+                <button type="button" class="btn btn-warning" id="startAgain"> Start Again</button>                
+            </div>
+        </div>
+
+    </div>
+    <div class="container rules">
+        <h5>How to Play:</h5>
+        <p>1. Enter your Name and click 'Start Game' button to start the Game.</p>
+        <p>2. Click on Click Here button to score.</p>
+        <p>3. You have to score maximum you can.</p>
+        <p>4. Click on 'Start Again' to Play Again</p>
+    </div>
+    <div class="container footer">
+        <p> Designed and Developed By: Ansh Sawant</p>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
